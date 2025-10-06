@@ -6,9 +6,11 @@
     <title>CONTACT</title>
 </head>
 <body>
-    <h1>CONTACT.</h1>
+    <div style="background-color: aqua;"">
+    <fieldset>
+    <legend><h1>CONTACT.</h1></legend>
     <h3>FILL THE FORM FOR BYING THE BIKES.</h3>
-    <form action="./Submit.html">
+    <form action="./submit.html">
         <table><tr>
             <td><label>User Name.</label></td>
             <td><input type="text" placeholder="Enter Your Name" required</td>
@@ -19,22 +21,32 @@
              <td><label>Password.</label></td>
             <td><input type="password" placeholder="Enter Your pin" required</td>
             </tr>
-           <th>Gender.</th><tr>
-           <td><input type="radio" required> Male </td>
-          <td><input type="radio" required> Female</td>
+             </table>
+             <table>
+                 <h4>Gender.</h4><tr>
+           <td><input type="radio"required > Male </td>
+          <td><input type="radio" > Female</td>
            </tr>
-        </table>
+       
+             </table>
+          
+         <h4>Search Your Product.</h4>
+        <table><td><input type="search" placeholder="Enter Product " required</td>
+       
         <table>
             <h4>SELECT YOUR COLOUR.</h4>
             <td>RED</td>
             <td><input type="checkbox" required</td>
             <td>GREEN</td>
-            <td><input type="checkbox"</td>
+            <td><input type="checkbox"required</td>
             <td>BLACK</td>
-            <td><input type="checkbox"</td>
+            <td><input type="checkbox"required</td>
             <td>BLUE</td>
-            <td><input type="checkbox"</td>
+            <td><input type="checkbox"required</td>
         </table>
+        <h4>YOUR BIRTH.</h4>
+        <table><td><input type="date" placeholder="Enter Your Birth"</td>
+     
         <table>
             <h4>HOW ABOUT YOUR EXPIRIENCE.</h4><tr>
             <td><textarea name="Comments" placeholder="Enter Your Comments." required cols="20" rows="5"></textarea></td></tr>
@@ -46,6 +58,7 @@
             </tr>
         </table>
     </form>
-
+</fieldset>
+</div>
 </body>
 </html>
